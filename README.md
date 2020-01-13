@@ -78,7 +78,7 @@ public class Equipo implements Serializable{
     @PrimaryKeyJoinColumn
     private Entrenador entrenador;
     
-    public void Equipo(){
+    public Equipo(){
     }
     
     public Equipo(int id,String nome, String cidade, int numeroSocios, Entrenador entrenador){
